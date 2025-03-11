@@ -1,0 +1,21 @@
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+      - data/winequality-red.csv
+      - src/preprocess.py
+    outs:
+      - data/processed.csv
+
+  train:
+    cmd: python train.py
+    deps:
+      - data/processed.csv
+      - train.py
+    params:
+      - learning_rate
+      - epochs
+    outs:
+      - models/model.pkl
+    metrics:
+      - metrics.json
