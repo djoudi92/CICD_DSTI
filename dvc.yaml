@@ -8,10 +8,10 @@ stages:
       - data/processed.csv
 
   train:
-    cmd: python train.py
+    cmd: python src/train.py
     deps:
       - data/processed.csv
-      - train.py
+      - src/train.py
     params:
       - learning_rate
       - epochs

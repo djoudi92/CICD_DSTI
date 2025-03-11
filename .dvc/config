@@ -1,0 +1,6 @@
+[core]
+    remote = myremote2
+['remote "myremote"']
+    url = /chemin/vers/storage
+['remote "myremote2"']
+    url = C:\Users\AbdessalemDjoudi\Desktop\dvc-storage
