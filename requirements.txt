@@ -3,7 +3,7 @@ pandas
 seaborn
 scikit-learn
 matplotlib  
-#jupyter
+dvc
 colorama==0.4.6
 iniconfig==2.0.0
 packaging==24.2
