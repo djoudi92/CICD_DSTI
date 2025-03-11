@@ -1,0 +1,18 @@
+
+<<<<<<< HEAD
+# Ignore virtual environments
+venv/
+.env
+.venv/
+
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore IDE/editor files
+.vscode/
